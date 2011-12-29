@@ -19,10 +19,10 @@ $Ts='minibbtable_send_mails';
 $Tb='minibbtable_banned';
 
 $admin_usr='Admin';
-$admin_pwd='20053456';
+$admin_pwd='123456';
 $admin_email='hang.xiao.hh@gmail.com';
 
-$main_url='http://127.0.0.1/minibb';
+$main_url='http://58.50.88.173/minibb';
 
 $bb_admin='bb_admin.php?';
 
