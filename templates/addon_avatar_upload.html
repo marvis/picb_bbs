@@ -1,0 +1,21 @@
+<table class="forumsmb">
+<tr>
+<td class="caption3" style="width:100%"><span class="txtNr"><strong><a href="{$main_url}/{$indexphp}">{$sitename}</a> / {$l_uploadAvatar}</strong></span></td>
+</tr>
+</table>
+
+<table class="forumsmb">
+<tr>
+<td align="left">
+<form action="{$main_url}/{$indexphp}" method="post" class="formStyle" enctype="multipart/form-data">
+<input type="hidden" name="MAX_FILE_SIZE" value="{$maxFileSize}" />
+<span class="txtNr">{$l_chooseFile} ({$l_max} {$sizeKb} Kb.{$sizes})<br /><br /></span> <input type="file" name="userfile" class="textForm" />
+<input type="hidden" name="action" value="avatarupload2" />
+<input type="hidden" name="adminUser" value="{$adminUser}" />
+<br /><br />
+<input type="submit" value="{$l_uploadAvatar}" class="inputButton" />
+</form>
+<br /><br />
+</td>
+</tr>
+</table>
