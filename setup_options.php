@@ -8,8 +8,8 @@ $DB='mysql';
 
 $DBhost='localhost';
 $DBname='minibb';
-$DBusr='root';
-$DBpwd='xh20053456';
+$DBusr='xxxx';
+$DBpwd='xxxx';
 
 $Tf='minibbtable_forums';
 $Tp='minibbtable_posts';
